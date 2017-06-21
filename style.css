@@ -1,0 +1,192 @@
+body {
+    background-color: #151515;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url("img/home_pizza_subheader.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+.navigacija {
+    margin: 0;
+    padding: 0;
+}
+.navigacija li, a:link, a:visited {
+    background-color: #C0392B;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #CD6155;
+}
+
+.button {
+    background-color: #C0392B;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sectionTitle {
+    background-color: #922B21;
+    padding: 20px;
+}
+
+.naslov {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    padding: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.lista {
+    padding: 0;
+}
+
+.lista li {
+    color: white;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    padding: 20px;
+}
+
+.flex-item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-item p {
+    border-bottom: 1px solid red;
+    margin: 0 auto;
+    display: inline-table;
+    padding: 0 10px;
+}
+
+.navi {
+    background-color: gray;
+    padding: 5px;
+    color: red;
+    border: 1px solid #041954;
+    width: 50%;
+}
+
+.picture {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#pizza .firstPicture {
+    background-image: url("img/vesuvio.png");
+}
+
+#pizza .secondPicture {
+    background-image: url("img/hamcheese.png");
+}
+
+#pizza .thirdPicture {
+    background-image: url("img/ljutizza.png");
+}
+
+#pizza .fourthPicture {
+    background-image: url("img/vegan.png");
+}
+
+#paste .firstPicture {
+    background-image: url("img/pastacarbonara.png");
+}
+
+#paste .secondPicture {
+    background-image: url("img/pastab.png");
+}
+
+#paste .thirdPicture {
+    background-image: url("img/caesars.png");
+}
+
+#paste .fourthPicture {
+    background-image: url("img/gardens.png");
+}
+
+#predjela .firstPicture {
+    background-image: url("img/ribs.png");
+}
+
+#predjela .secondPicture {
+    background-image: url("img/chifing.png");
+}
+
+#predjela .thirdPicture {
+    background-image: url("img/wings.png");
+}
+
+#predjela .fourthPicture {
+    background-image: url("img/bbqwings-1.png");
+}
+
+#dezerti .firstPicture {
+    background-image: url("img/calcnute.png");
+}
+
+#dezerti .secondPicture {
+    background-image: url("img/profite.png");
+}
+
+#dezerti .thirdPicture {
+    background-image: url("img/krofna.png");
+}
+
+#dezerti .fourthPicture {
+    background-image: url("img/cheesec.png");
+}
+
+#akcije .firstPicture {
+    background-image: url("img/newyork.png");
+}
+
+#akcije .secondPicture {
+    background-image: url("img/srpska.png");
+}
+
+#akcije .thirdPicture {
+    background-image: url("img/special.png");
+}
+
+#akcije .fourthPicture {
+    background-image: url("img/garden.png");
+}
+
+footer {
+    padding: 40px 0 40px 0;
+    background-color: #922B21;
+}
+
+
